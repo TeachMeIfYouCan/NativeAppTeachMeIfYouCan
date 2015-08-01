@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3" package="org.tizen.zserviceapp" version="1.0.0">
+    <profile name="mobile"/>
+    <service-application appid="org.tizen.zserviceapp" exec="zserviceapp" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>zserviceapp</label>
+        <icon>zserviceapp.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
+        <privilege>http://tizen.org/privilege/recorder</privilege>
+    </privileges>
+</manifest>
