@@ -21,7 +21,10 @@ void* audio_in_start();
 void audio_send_byte(char* char_buffer);
 
 
-char* remote_app_id_copy = "S8vjRcPYft.zWebApp";
+//char* remote_app_id_copy = "S8vjRcPYft.zWebApp";
+
+char* remote_app_id_copy= "Y2QbwJHU6E.TizenProjectTeachMeIFYouCanVER01";
+
 char encoding[256][2];
 
 pthread_t p_thread;
