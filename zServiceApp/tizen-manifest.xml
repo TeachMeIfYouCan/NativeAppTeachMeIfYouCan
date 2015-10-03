@@ -6,7 +6,7 @@
         <icon>zserviceapp.png</icon>
     </service-application>
     <privileges>
-        <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
-        <privilege>http://tizen.org/privilege/recorder</privilege>
+      <!-- <privilege>http://tizen.org/privilege/packagemanager.info</privilege>
+       --><privilege>http://tizen.org/privilege/recorder</privilege>  
     </privileges>
 </manifest>
